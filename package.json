@@ -1,0 +1,21 @@
+{
+  "name": "vitamin-c",
+  "displayName": "Vitamin C",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vitamin C",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark-color-theme.json"
+      }
+    ]
+  }
+}
