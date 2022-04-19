@@ -1,1 +1,1 @@
-# Mephisto
+# Jack O'Lantern Color Theme
