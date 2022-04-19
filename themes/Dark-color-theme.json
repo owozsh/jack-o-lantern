@@ -161,35 +161,35 @@
     "foreground": "#EDE8DA",
     "editorWhitespace.foreground": "#EDE8DA30",
 
-    "list.highlightForeground": "#adcfbc",
     "list.errorForeground": "#ea5c52",
+    "minimap.errorHighlight": "#ea5c52",
+    "minimapGutter.deletedBackground": "#ea5c52",
+    "editorOverviewRuler.errorForeground": "#ea5c52",
+    "editorError.foreground": "#ea5c52",
+    "problemsErrorIcon.foreground": "#ea5c52",
     "list.warningForeground": "#ff9f50",
+    "editorOverviewRuler.warningForeground": "#ff9f50",
+    "minimap.warningHighlight": "#ff9f50",
+    "editorWarning.foreground": "#ff9f50",
+    "problemsWarningIcon.foreground": "#ff9f50",
     "activityBar.foreground": "#EDE8DA",
     "activityBar.inactiveForeground": "#515543",
     "activityBarBadge.foreground": "#000000",
     "activityBar.activeBackground": "#1a1a2600",
-    "minimap.errorHighlight": "#ea5c52",
-    "minimap.warningHighlight": "#ff9f50",
     "minimapGutter.addedBackground": "#CDD384",
-    "minimapGutter.deletedBackground": "#ea5c52",
+    "list.highlightForeground": "#adcfbc",
     "minimapGutter.modifiedBackground": "#adcfbc",
     "tab.activeModifiedBorder": "#adcfbc",
+    "editorOverviewRuler.modifiedForeground": "#adcfbc",
+    "editorOverviewRuler.addedForeground": "#adcfbc",
+    "editorOverviewRuler.deletedForeground": "#adcfbc",
+    "editorOverviewRuler.infoForeground": "#adcfbc",
     "editor.foreground": "#EDE8DA",
     "editorLineNumber.foreground": "#515543",
     "editorLineNumber.activeForeground": "#989c8c",
     "editorCursor.background": "#000000",
     "editor.foldBackground": "#adcfbc30",
-    "editorOverviewRuler.modifiedForeground": "#adcfbc",
-    "editorOverviewRuler.addedForeground": "#adcfbc",
-    "editorOverviewRuler.deletedForeground": "#adcfbc",
-    "editorOverviewRuler.errorForeground": "#ea5c52",
-    "editorOverviewRuler.warningForeground": "#ff9f50",
-    "editorOverviewRuler.infoForeground": "#adcfbc",
-    "editorError.foreground": "#ea5c52",
-    "editorWarning.foreground": "#ff9f50",
     "editorInfo.foreground": "#adcfbc",
-    "problemsErrorIcon.foreground": "#ea5c52",
-    "problemsWarningIcon.foreground": "#ff9f50",
     "problemsInfoIcon.foreground": "#adcfbc",
     "editorGutter.modifiedBackground": "#adcfbc",
     "editorGutter.addedBackground": "#CDD384",
@@ -233,8 +233,7 @@
         "markup.deleted",
         "punctuation.separator.dictionary.key-value",
         "punctuation.definition.markdown",
-        "storage.modifier.pointer",
-        "meta.tag.metadata.doctype punctuation.definition.tag"
+        "storage.modifier.pointer"
       ],
       "settings": {
         "foreground": "#ea5c52",
@@ -338,7 +337,8 @@
         "support.type.property-name.json",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json",
-        "meta.tag entity.other.attribute-name"
+        "meta.tag entity.other.attribute-name",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#ffc861",
@@ -400,7 +400,6 @@
         "meta.type.parameters entity.name.type",
         "support.type.property-name.css",
         "meta.property-list entity.name.tag.css",
-        "entity.other.attribute-name.html",
         "support.class"
       ],
       "settings": {
@@ -467,7 +466,8 @@
         "meta.block",
         "variable.other.object.property",
         "meta.brace.round.js",
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "meta.tag.metadata.doctype punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#EDE8DA"
