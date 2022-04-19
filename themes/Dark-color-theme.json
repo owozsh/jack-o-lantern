@@ -1,5 +1,5 @@
 {
-  "name": "Mephisto",
+  "name": "Jack O'Lantern",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -53,6 +53,7 @@
     "badge.foreground": "#0F120C",
     "editorPane.background": "#0F120C",
     "editor.lineHighlightBackground": "#0F120C",
+    "statusBar.debuggingForeground": "#0F120C",
 
     // DARK_1
     "panel.background": "#181a16",
@@ -137,12 +138,12 @@
     // ORANGE:
     "inputValidation.warningBackground": "#ff9f5090",
     "inputValidation.warningBorder": "#ff9f50",
+    "statusBar.debuggingBackground": "#ff9f50",
 
     // RED:
     "errorForeground": "#ea5c52",
     "inputValidation.errorBackground": "#ea5c5290",
     "inputValidation.errorBorder": "#ea5c52",
-    "statusBar.debuggingBackground": "#ea5c52",
 
     // BLUE
 

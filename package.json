@@ -1,6 +1,6 @@
 {
-  "name": "mephisto",
-  "displayName": "Mephisto",
+  "name": "jack-o-lantern",
+  "displayName": "Jack O'Lantern",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Mephisto",
+        "label": "Jack O'Lantern",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark-color-theme.json"
       }
