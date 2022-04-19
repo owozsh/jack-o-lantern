@@ -1,6 +1,6 @@
 {
-  "name": "vitamin-c",
-  "displayName": "Vitamin C",
+  "name": "mephisto",
+  "displayName": "Mephisto",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vitamin C",
+        "label": "Mephisto",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark-color-theme.json"
       }
