@@ -221,7 +221,6 @@
     // RED
     {
       "scope": [
-        "parameter.variable",
         "meta.function.parameter variable",
         "punctuation.definition.binding-pattern.array",
         "source.rust meta.type_params.rust",
@@ -288,7 +287,6 @@
         "storage.type",
         "support.type",
         "variable.argument",
-        "support.type.primitive",
         "keyword.control",
         "entity.name.tag"
       ],
@@ -400,7 +398,8 @@
         "meta.type.parameters entity.name.type",
         "support.type.property-name.css",
         "meta.property-list entity.name.tag.css",
-        "support.class"
+        "support.class",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#adcfbc",
@@ -466,7 +465,6 @@
         "meta.block",
         "variable.other.object.property",
         "meta.brace.round.js",
-        "entity.name.section.markdown",
         "meta.tag.metadata.doctype punctuation.definition.tag"
       ],
       "settings": {
@@ -475,7 +473,7 @@
     },
     // WHITE_BOLD
     {
-      "scope": ["variable.parameter"],
+      "scope": ["entity.name.section.markdown"],
       "settings": {
         "foreground": "#EDE8DA",
         "fontStyle": "bold"
