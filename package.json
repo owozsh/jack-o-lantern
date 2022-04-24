@@ -15,6 +15,11 @@
         "label": "Jack O'Lantern",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark-color-theme.json"
+      },
+      {
+        "label": "Jack O'Lantern",
+        "uiTheme": "vs",
+        "path": "./themes/Light-color-theme.json"
       }
     ]
   }
